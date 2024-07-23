@@ -1,17 +1,42 @@
 {
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "jsx": "react-native",
+    "target": "ES2015",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
     "strict": true,
+    "baseUrl": "./",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
-    }
+      "assets/*": ["assets/*"],
+      "lottie/*": ["assets/lottie/*"],
+      "jpg/*": ["assets/jpg/*"],
+      "svg/*": ["assets/svg/*"],
+      "src/*": ["src/*"],
+      "api/*": ["src/api/*"],
+      "components/*": ["src/components/*"],
+      "hooks/*": ["src/hooks/*"],
+      "modules/*": ["src/modules/*"],
+      "navigation/*": ["src/navigation/*"],
+      "store/*": ["src/store/*"]
+    },
+    "lib": [
+      "es2019",
+      "es2020.bigint",
+      "es2020.date",
+      "es2020.number",
+      "es2020.promise",
+      "es2020.string",
+      "es2020.symbol.wellknown",
+      "es2021.promise",
+      "es2021.string",
+      "es2021.weakref",
+      "es2022.array",
+      "es2022.object",
+      "es2022.string"
+    ]
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-  ]
 }

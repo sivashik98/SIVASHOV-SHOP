@@ -1,50 +1,39 @@
-# Welcome to your Expo app 👋
+## Sivashov Shop App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Technology stack:
 
-## Get started
+- TypeScript v5
+- React Native Expo v50
+- React Native Async Storage
+- React Navigation v6
+- Redux RTK
+- RTK Querry
+- Shopify Flash List
+- Lottie React Native
+- React Native Gesture Handler v2
+- React Native Reanimated v3
+- React Native Svg
+- React Native Ui Lib v7
+- React Native Unistyles v2.8
+- Expo Haptics
+- Expo Blur
+- Lodash
 
-1. Install dependencies
+# Описание:
 
-   ```bash
-   npm install
-   ```
+Тематика приложения - мобильный интернет магазин. API беру из - https://dummyjson.com. Модульная архитектура проекта.
 
-2. Start the app
+# Возможности приложения:
 
-   ```bash
-    npx expo start
-   ```
+- Поиск товара по буквам (ищет по полю description товара, не по имени!)
+- Бесконечная лента товара
+- Фильтр товаров по категории
+- Добавить/убрать товар в избранное
+- Добавить/убрать товар в корзину
+- Купить товары из корзины
+- Переключать тему приложения темная/светлая
 
-In the output, you'll find options to open the app in a
+# Ссылки на приложение:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Скачать APK для андройд тут -
+- Чтобы попробовать приложение на iOS, мне нужна ваша Appstore почта чтобы я мог добавить вас в свою команду тестировщиков, затем скачать Testflight и я вам вышлю приглашение на почту, затем вы установите приложение в Testflight и протестируете его (для связи со мной пишите в телеграм - @maximuSpartan98)

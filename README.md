@@ -8,7 +8,6 @@
 - React Navigation v6
 - Redux RTK
 - RTK Querry
-- Shopify Flash List
 - Lottie React Native
 - React Native Gesture Handler v2
 - React Native Reanimated v3
